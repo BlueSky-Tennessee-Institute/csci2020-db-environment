@@ -2,7 +2,6 @@
   "name": "CSCI 2020 Database Environment",
   "dockerComposeFile": ["../docker-compose.yml"],
   "service": "db",
-  "workspaceFolder": "/workspace/${localWorkspaceFolerBasename}",
   "forwardPorts": [5432],
   "portsAttributes": {
     "5432": { "label": "PostgreSQL" }
